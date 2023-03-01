@@ -11,7 +11,7 @@ function inputLength() {
 function createListElement() {
 	var li = document.createElement("li");
 	var trashButton = document.createElement("button");
-	nput.value += " ";
+	input.value += " ";
 	li.appendChild(document.createTextNode(input.value));
 	li.appendChild(trashButton);
 	ul.appendChild(li);
